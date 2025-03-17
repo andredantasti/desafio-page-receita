@@ -209,3 +209,57 @@ body{
     height: 10px;
     border: none;
 }
+
+@media(max-width:768px){
+   body{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+   } 
+
+   .container{
+    width: 100%;
+    height: 100%;
+    margin: 40px;
+   }
+
+   .nutricao .tabela tr{
+    width: 100%;
+    border-width: 100%;
+   }
+
+   .nutricao .tabela th{
+    width: 100%;
+   }
+
+}
+   @media(max-width:375px){
+    body{
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+    } 
+ 
+    .container{
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+    }
+
+    .receita{
+        margin: 40px;
+    }
+ 
+    .nutricao .tabela tr{
+     width: 100%;
+     border-width: 100%;
+    }
+ 
+    .nutricao .tabela th{
+     width: 100%;
+    }
+ 
+
+   }
